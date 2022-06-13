@@ -12,13 +12,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand navbar-dark bg-dark">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="./welcome.jsp" class="navbar-brand">Home</a>
-        </div>
-      </div>
-    </nav>
+    <jsp:include page="menu.jsp"></jsp:include>
 
     <div class="p-5 bg-primary text-white">
       <div class="container">
@@ -39,9 +33,7 @@
       </div>
     </div>
 
-    <footer class="container">
-      <p>&copy; WebMarket</p>
-    </footer>
+    <jsp:include page="footer.jsp"></jsp:include>
 
   </body>
 
