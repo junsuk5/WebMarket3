@@ -1,6 +1,5 @@
 package com.survivalcoding.data;
 
-import java.util.Collections;
 import java.util.List;
 import com.survivalcoding.data.dao.ProductDao;
 import com.survivalcoding.domain.model.Product;
