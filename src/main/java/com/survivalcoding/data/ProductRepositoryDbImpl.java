@@ -15,7 +15,7 @@ public class ProductRepositoryDbImpl implements ProductRepository {
 
     @Override
     public List<Product> getAllProducts() {
-        return Collections.emptyList();
+        return dao.getAll();
     }
 
     @Override
